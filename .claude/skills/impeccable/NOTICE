@@ -1,0 +1,34 @@
+impeccable — vendored guidance-only
+===================================
+
+Design guidance in this directory is adapted from the "impeccable" skill:
+
+  Author:  Paul Bakaus
+  Source:  https://github.com/pbakaus/impeccable
+  Commit:  1fe9c41759d4704485d04b11ab8ee71020b8b87c  (version 3.9.1)
+  License: Apache License, Version 2.0
+           https://www.apache.org/licenses/LICENSE-2.0
+
+Scope of this vendoring
+-----------------------
+
+Guidance only. The upstream runtime tooling is intentionally omitted to honor
+r-stack's zero-runtime-dependency rule:
+
+  - Node.js scripts (scripts/*.mjs)
+  - agent configs (agents/*.toml, agents/*.yaml)
+  - the `$impeccable` command system, live browser-iteration mode, and hooks
+
+Files reproduced/adapted here under Apache-2.0:
+
+  - SKILL.md          design-guidance sections; runtime scaffolding removed,
+                      one model-specific aside generalized
+  - reference/brand.md    verbatim, minus one dangling link to an omitted
+                          tooling reference (live.md)
+  - reference/product.md  verbatim
+
+The remaining upstream reference/ guides (craft, shape, audit, polish, etc.)
+are available at the source URL above and may be added later after passing the
+skill-security-auditor checklist.
+
+The Apache-2.0 license requires preservation of this NOTICE and attribution.

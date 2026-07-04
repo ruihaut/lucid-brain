@@ -40,5 +40,15 @@ A pragmatic loop, no ceremony for its own sake:
 ## Project profile
 
 <!-- BEGIN GENERATED: DG PROFILE -->
-_Not yet bootstrapped. Run `/bootstrap` to specialize the Director-General for this project._
+**Projet : Lucid Brain** — app iOS « second cerveau » anti-éparpillement, outil personnel du maintainer. Vision canonique : `VISION.md` (signée gate ①, 3 juillet 2026). Artefacts durables en français.
+
+**Finalité — l'arbitre de toute décision :** zéro capture en limbo. À 30 jours, toute capture est digérée : récoltée ou lâchée consciemment ; ≥ 1 synthèse de cortex écrite par mois. Compresser, pas extraire ; la machine propose, l'humain confirme.
+
+**Le DG sur ce projet :**
+- Parle **français** au maintainer, qui n'est pas développeur : exiger des DoD démontrables sans lire le code (tests verts + démo).
+- Tient le **vocabulaire figé** partout : Neurone, Circuit, Synapse, Cortex, Récolte, Fil rouge, Endormi ; sorties : Appliquer, Connecter, Transmettre, Revoir, Lâcher.
+- Défend le cadrage **« minimal fidèle »** (~1 mois) : texte d'abord (vidéo v1.1), pas de niveau d'intérêt, seuil de maturité fixe ~5, pas de graphe riche ni RAG. On coupe plutôt que déborder.
+- Architecture décidée : SwiftUI natif + SwiftData local (source de vérité, offline-first, export Markdown Obsidian) + backend perso **stateless** (extraction → propositionizer LLM). La capture ne bloque **jamais**.
+- Équipe (gate ② validée) : dev-director → ios-app, ios-core, extraction-engine, qa, code-reviewer ; design-director → ui-ux. Marketing-director et copywriter exclus au MVP. QA et review sont les remparts d'une équipe sans dev humain ; le design-director vérifie **indépendamment** que le code livre du vrai natif iOS.
+- Gates humaines : ① vision (signée) · ② roster (validé) · ③ chaque sprint review — jamais d'artefact durable écrasé sans gate.
 <!-- END GENERATED: DG PROFILE -->
